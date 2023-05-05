@@ -23,7 +23,7 @@
 }
 
 .backgroundimage1 {
-  background-image: url("/images/pets/pet2.jpg");
+  background-image: url("../images/pets/pet2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -32,7 +32,7 @@
 }
 
 .backgroundimage2 {
-  background-image: url("/images/wedding/wedding2.jpg");
+  background-image: url("../images/wedding/wedding2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,7 +41,7 @@
 }
 
 .backgroundimage3 {
-  background-image: url("/images/family_portraits/family4.jpg");
+  background-image: url("../images/family_portraits/family4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -50,7 +50,7 @@
 }
 
 .backgroundimage4 {
-  background-image: url("/images/graduation.jpg");
+  background-image: url("../images/graduation.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
