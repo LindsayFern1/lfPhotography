@@ -1,0 +1,103 @@
+
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto';
+}
+  
+.navbar-nav {
+    display: flex;
+    flex-direction: column; 
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin: 1%;
+    justify-content: space-between;
+}
+
+.logo {
+  width: 118px;
+  height: 110px;
+}
+
+.row {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    padding: 2rem;
+    color: #556B2F;
+    font-family: 'Space Mono', sans-serif;
+  }
+
+.footer {
+    margin-top: 5%;
+    border-top: 1px solid darkgray;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px;
+  }
+
+
+.social {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social img {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .contacts p {
+    margin: 0;
+    padding: 0;
+    color: #556B2F;
+    font-size: 15px;
+  }
+  
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #8d9d72; 
+    opacity: 0.9;
+    text-align: center; 
+    font-family: 'Roboto';
+    max-width: 600px;
+    margin: 10px;
+}
+
+.card-body {
+    text-align: center;
+    padding: 50px 0;
+}
+
+@media (max-width: 768px) {
+  .card {
+    background-color: #8d9d72; 
+    text-align: center; 
+    font-family: 'Roboto';
+    max-width: 500px;
+    max-height: 10%;
+    margin: 10px;
+}
+  
+}

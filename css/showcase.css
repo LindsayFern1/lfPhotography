@@ -1,0 +1,421 @@
+.navbar{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto';
+}
+  
+.navbar-nav {
+  display: flex;
+  flex-direction: column; 
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  margin: 1%;
+  align-items: center;
+}
+
+.logo {
+  width: 118px;
+  height: 110px;
+}
+
+.row1 {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  padding: 2rem;
+  color: #556B2F;
+  font-family: 'Space Mono', sans-serif;
+  }
+
+.btn-pink {
+  background-image: linear-gradient(to bottom, #ffa996,#863827);
+  background-size: 200% 200%;
+  background-position: top;
+  color: white;
+
+}
+
+.btn-pink:hover {
+  background-position: bottom;
+  color: black;
+  background-color:#863827;
+  transition: all 300ms ease-in-out;
+}
+
+.wedding1 {
+  background-color: #863827;
+  background-image: url("../images/wedding/wedding6.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+}
+
+.wedding2 {
+  background-color: #863827;
+  background-image: url("../images/wedding/wedding2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+}
+
+.wedding3 {
+  background-color: #863827;
+  background-image: url("../images/wedding/wedding1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 48%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+  }
+
+.wedding4 {
+  background-color: #863827;
+  background-image: url("../images/wedding/wedding4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+  }
+
+  .wedding5 {
+  background-color: #863827;
+  background-image: url("../images/wedding/wedding5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:10px;
+  }
+
+.graduation1 {
+  background-color: #863827;
+  background-image: url("../images/graduation/graduation2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+  }
+
+.graduation2 {
+  background-color: #863827;
+  background-image: url("../images/graduation/graduation4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+  }
+  
+.graduation3 {
+  background-color: #863827;
+  background-image: url("../images/graduation/graduation3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 48%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+  }
+
+.graduation4 {
+  background-color: #863827;
+  background-image: url("../images/graduation/graduation6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+  }
+
+.graduation5 {
+  background-color: #863827;
+  background-image: url("../images/graduation/graduation1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:10px;
+  }
+
+.family1 {
+  background-color: #863827;
+  background-image: url("../images/family_portraits/family6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+  }
+
+.family2 {
+  background-color: #863827;
+  background-image: url("../images/family_portraits/family1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+  }
+
+.family3 {
+  background-color: #863827;
+  background-image: url("../images/family_portraits/family3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 48%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+  }
+  
+.family4 {
+  background-color: #863827;
+  background-image: url("../images/family_portraits/family4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+}
+
+.family5 {
+  background-color: #863827;
+  background-image: url("../images/family_portraits/family8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:10px;
+  }
+
+  
+.realestate1 {
+  background-color: #863827;
+  background-image: url("../images/real_estate/realestate5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+  }
+
+.realestate2 {
+  background-color: #863827;
+  background-image: url("../images/real_estate/realestate1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+  }
+  
+.realestate3 {
+  background-color: #863827;
+  background-image: url("../images/real_estate/realestate2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 48%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+  }
+  
+.realestate4 {
+  background-color: #863827;
+  background-image: url("../images/real_estate/realestate3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+  }
+  
+.realestate5 {
+  background-color: #863827;
+  background-image: url("../images/real_estate/realestate4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:10px;
+  }
+  
+.pet1 {
+  background-color: #863827;
+  background-image: url("../images/pets/pet1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+  }
+  
+.pet2 {
+  background-color: #863827;
+  background-image: url("../images/pets/pet2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 47%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+  }
+
+.pet3 {
+  background-color: #863827;
+  background-image: url("..//images/pets/pet6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 48%;
+  min-height: 200px;
+  width:100%;
+  padding:0;
+  }
+
+.pet4 {
+  background-color: #863827;
+  background-image: url("../images/pets/pet4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:0;
+  }
+
+.pet5 {
+  background-color: #863827;
+  background-image: url("../images/pets/pet8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  min-height: 300px;
+  width:100%;
+  padding:10px;
+  }
+  
+  .col-sm-12 {
+    padding: 0;
+    margin:10px
+  } 
+
+  .row {
+    min-height: 500px;
+    clear: both;
+  }
+
+  .footer {
+    margin-top: 5%;
+    border-top: 1px solid darkgray;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px;
+  }
+  
+  .social {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social img {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .contacts p {
+    margin: 0;
+    padding: 0;
+    color: #556B2F;
+    font-size: 15px;
+  }
+  
+  
+@media (max-width: 576px) { 
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300%;
+  }
+  .col-md-6 {
+    height: 300%;
+    padding: 0;
+  }
+  .backgroundimage {
+    height: 100%;
+    object-fit: cover;
+  }
+  .logo {
+    width: 118px;
+    height: 110px;
+  }
+
+  .row1 {
+    text-align: center;
+  }
+  
+  } 
